@@ -102,10 +102,15 @@ class Frame(wx.Frame):
 
         
 class App(wx.App):
-    def __init__(self, logfile,redirect=False, filename=None):
+    def __init__(self, logfile,notadmin,redirect=False, filename=None):
         wx.App.__init__(self, redirect, filename)
         self.logfile=logfile
+        self.notadmin = notadmin
     def OnInit(self):
+        if notadmin:
+            wx.MessageDialog(None,'请以管理员权限执行本程序','错误',wx.OK).ShowModal()
+            self.ExitMainLoop()
+            return False
         self.htcpdns = tcpdns.tcpdns()
         self.hdnscfg = DNSCfg.DNSCfg()
         self.frame = Frame(None)
@@ -133,14 +138,18 @@ def resource_path(relative_path):
 # Run the program
 if __name__ == "__main__":
     firstrun=False
+    notadmin=False
     global logfile
 
     try:
         hkey = _winreg.OpenKey(_winreg.HKEY_LOCAL_MACHINE,r'SOFTWARE\\xiaoyao9933')
         firstrun = False
     except:
-        hkey = _winreg.OpenKey(_winreg.HKEY_LOCAL_MACHINE,r'SOFTWARE\\')
-        _winreg.CreateKey(hkey, 'xiaoyao9933')
+        try:
+            hkey = _winreg.OpenKey(_winreg.HKEY_LOCAL_MACHINE,r'SOFTWARE\\',0,_winreg.KEY_ALL_ACCESS)
+            _winreg.CreateKey(hkey, 'xiaoyao9933')
+        except:
+            notadmin=True
         firstrun = True
     if firstrun:
         webbrowser.open('https://github.com/xiaoyao9933/puredns/wiki/%E6%AC%A2%E8%BF%8E%E4%BD%BF%E7%94%A8PureDNS')
@@ -149,7 +158,7 @@ if __name__ == "__main__":
         sys.stdout = logfile
         sys.stderr = logfile
         try:
-            app=App(logfile)
+            app=App(logfile,notadmin)
             app.MainLoop()
         except:
             traceback.print_exc()
