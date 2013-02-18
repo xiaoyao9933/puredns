@@ -110,9 +110,14 @@ class App(wx.App):
         if notadmin:
             wx.MessageDialog(None,'请以管理员权限执行本程序','错误',wx.OK).ShowModal()
             self.ExitMainLoop()
-            return False
+            return True
         self.htcpdns = tcpdns.tcpdns()
         self.hdnscfg = DNSCfg.DNSCfg()
+        if self.hdnscfg.notadmin:
+            wx.MessageDialog(None,'请以管理员权限执行本程序','错误',wx.OK).ShowModal()
+            self.htcpdns.force_close()
+            self.ExitMainLoop()
+            return True
         self.frame = Frame(None)
         #.Bind(wx.EVT_CLOSE,self.OnExit)
         #self.Bind(wx.EVT_END_SESSION,self.OnExit)

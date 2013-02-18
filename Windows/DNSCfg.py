@@ -13,14 +13,16 @@ class DNSCfg:
 	def __init__(self):
 		self.wmiService = wmi.WMI()
 		self.netCfgBackup={}
-		self.GetDNSBackup()
-		print self.netCfgBackup
+		self.notadmin = self.GetDNSBackup()
 	#----------------------------------------------------------------------
 	# Get the Adapter who has mac from wmi 
 	#----------------------------------------------------------------------
 	def GetDNSBackup(self):
 		flag = False
-		hkey = _winreg.OpenKey(_winreg.HKEY_LOCAL_MACHINE,r'System\\CurrentControlSet\\Services\\Tcpip\\Parameters\\Interfaces\\',0,_winreg.KEY_ALL_ACCESS)
+		try:
+			hkey = _winreg.OpenKey(_winreg.HKEY_LOCAL_MACHINE,r'System\\CurrentControlSet\\Services\\Tcpip\\Parameters\\Interfaces\\',0,_winreg.KEY_ALL_ACCESS)
+		except:
+			return True
 		keyInfo = _winreg.QueryInfoKey(hkey)
 		for index in range(keyInfo[0]):
 				hSubKeyName = _winreg.EnumKey(hkey, index)
@@ -41,6 +43,7 @@ class DNSCfg:
 					pass
 		if flag:
 			self.RestoreDns()
+		return False
 	#----------------------------------------------------------------------
 	# Modify DNS
 	#----------------------------------------------------------------------
@@ -51,7 +54,6 @@ class DNSCfg:
 		for i in range(len(self.colNicConfigs)):
 			if self.colNicConfigs[i].SetDNSServerSearchOrder(DNSServerSearchOrder = dns.split(','))[0] == 0:
 				print '>> Modify Success!'
-		print self.netCfgBackup
 		return 0
 	#----------------------------------------------------------------------
 	# Restore DNS
@@ -89,7 +91,6 @@ class DNSCfg:
 				self.colNicConfigs = self.wmiService.Win32_NetworkAdapterConfiguration(IPEnabled = True)
 				for i in range(len(self.colNicConfigs)):
 					self.colNicConfigs[i].SetDNSServerSearchOrder(DNSServerSearchOrder = ['8.8.8.8','8.8.4.4'])
-		print self.netCfgBackup
 		return 0
 	#----------------------------------------------------------------------
 	# ModifyDns in Registry
@@ -104,6 +105,7 @@ class DNSCfg:
 		#pass
 		
 def PrintInfo():
+	print 'version 1.2 modified'
 	print 'Registry Info:'
 	hkey = _winreg.OpenKey(_winreg.HKEY_LOCAL_MACHINE,r'System\\CurrentControlSet\\Services\\Tcpip\\Parameters\\Interfaces\\')
 	keyInfo = _winreg.QueryInfoKey(hkey)

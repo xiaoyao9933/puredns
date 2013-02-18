@@ -147,6 +147,7 @@ class Daemon:
         signal.signal(signal.SIGTERM, self.terminate)
         self.dnscfg=DNSCfg.DNSCfg()
         self.tcpdns=tcpdns.tcpdns()
+        self.tcpdns.start()
         self.dnscfg.ModifyDns('127.0.0.1')
         while self.run:
             time.sleep(1)
