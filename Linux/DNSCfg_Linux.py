@@ -15,7 +15,7 @@ class DNSCfg:
     def GetDNSBackup(self):
         try:
             dnsfile = open('/etc/resolv.conf','r+')
-            backupfile = open('/etc/puredns.conf','r+')
+            backupfile = open('/etc/puredns.conf','w+')
             self.backup = backupfile.read()
             self.conf = dnsfile.read()
             dnsfile.seek(0)
