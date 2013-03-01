@@ -4,10 +4,10 @@ def create_loader():
     if s == "Darwin":
         from loader.linux_loader import loader
         return loader
-    else if s == "Linux":
+    elif s == "Linux":
         from loader.linux_loader import loader
         return loader
-    else if s == "Windows":
+    elif s == "Windows":
         from loader.windows_loader import loader
         return loader
     else:

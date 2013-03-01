@@ -22,10 +22,10 @@ def create_dnscfg():
     if s == "Darwin":
         from dnscfg.darwin_dnscfg import DarwinDNSCfg
         return DarwinDNSCfg
-    else if s == "Linux":
+    elif s == "Linux":
         from dnscfg.linux_dnscfg import LinuxDNSCfg
         return LinuxDNSCfg
-    else if s == "Windows":
+    elif s == "Windows":
         from dnscfg.windows_dnscfg import WindowsDNSCfg
         return WindowsDNSCfg
     else:
