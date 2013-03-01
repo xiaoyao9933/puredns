@@ -51,7 +51,7 @@ class ThreadedUDPServer(SocketServer.ThreadingMixIn, SocketServer.UDPServer):
         SocketServer.UDPServer.__init__(self, s, t)
 
 
-def ThreadedDNSRequestHandler(SocketServer.BaseRequestHandler):
+class ThreadedDNSRequestHandler(SocketServer.BaseRequestHandler):
     # Ctrl-C will cleanly kill all spawned threads
     daemon_threads = True
     # much faster rebinding

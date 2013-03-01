@@ -29,7 +29,7 @@ import random
 
 from const import *
 from server._base import *
-from deamon import *
+from daemon import *
 
 
 class RequestHandlerToTCP(ThreadedDNSRequestHandler):
@@ -39,7 +39,6 @@ class RequestHandlerToTCP(ThreadedDNSRequestHandler):
     follow rfc1035
     '''
     def queryremote(self, server, port, querydata):
-        # Length
         # RFC1035 section-4.2.2
         Buflen = struct.pack('!h', len(querydata))
         sendbuf = Buflen + querydata
@@ -58,13 +57,13 @@ class RequestHandlerToTCP(ThreadedDNSRequestHandler):
         return data
 
 
-class TCPDNS(Deamon):
+class TCPDNS(Daemon):
 
     stopped = threading.Event()
     server = None
 
     def __init__(self, cfg):
-        Deamon.__init__(self, '/tmp/test.pid', '/dev/null', 'stdout.log', 'stderr.log')
+        Daemon.__init__(self, '/tmp/test.pid', '/dev/null', 'stdout.log', 'stderr.log')
         self.dnscfg = cfg
         
     def serve_forever(self):
@@ -93,12 +92,13 @@ class TCPDNS(Deamon):
         #signal.signal(signal.SIGKILL, self.terminate)
         signal.signal(signal.SIGINT, self.terminate)
         signal.signal(signal.SIGTERM, self.terminate)
+        self.dnscfg.backup()
         self.dnscfg.modify('127.0.0.1')
         print '>> Please wait program init....'
         print '>> Init finished!'
         self.server = ThreadedUDPServer(('127.0.0.1', 53), RequestHandlerToTCP)
         self.server_thread = threading.Thread(target = self.serve_forever)
-        self.start()
+        self.server_thread.start()
         while self.run:
             time.sleep(1)
         print '>> close server ,success'

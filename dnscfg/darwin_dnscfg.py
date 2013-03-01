@@ -1,18 +1,16 @@
+from linux_dnscfg import LinuxDNSCfg
+
 class DarwinDNSCfg(LinuxDNSCfg):
 
 
-    def __init__(self):
-        LinuxDNSCfg.__init__(self)
-        self.backup()
-    
     def backup(self):
-        pass
+        LinuxDNSCfg.backup(self)
 
     def modify(self, dns):
-        pass
+        LinuxDNSCfg.modify(self, dns)
 
     def restore(self):
-        pass
+        LinuxDNSCfg.restore(self)
 
     def printinfo(self):
-        pass
+        LinuxDNSCfg.printinfo(self)

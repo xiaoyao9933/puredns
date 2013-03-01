@@ -1,6 +1,6 @@
 import sys,os
 from subprocess import Popen
-from tcpdns import TCPDNS
+from server.tcpdns import TCPDNS
 
 def load(cfg):
     if os.geteuid() !=0:
