@@ -6,6 +6,8 @@ import SocketServer
 import traceback
 import random
 
+from const import *
+
 #-------------------------------------------------------------
 # Hexdump Cool :)
 # default width 16
@@ -40,7 +42,7 @@ def bytetodomain(s):
   
     return domain
 
-def resolve_request(data):
+def resolve_request(querydata):
     domain = bytetodomain(querydata[12:-4])
     qtype = struct.unpack('!h', querydata[-4:-2])[0]
     return (domain, qtype)
@@ -60,10 +62,9 @@ class ThreadedDNSRequestHandler(SocketServer.BaseRequestHandler):
     #-----------------------------------------------------
     # send udp dns respones back to client program
     #----------------------------------------------------
-    def transfer(self, addr, server):
+    def transfer(self, querydata, addr, server):
         if not querydata: return
-
-        (domain, qtype) = resolve_request(data)
+        (domain, qtype) = resolve_request(querydata)
         """
         print 'domain:%s, qtype:%x, thread:%d' % \
              (domain, qtype, threading.activeCount())

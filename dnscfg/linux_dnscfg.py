@@ -59,5 +59,6 @@ class LinuxDNSCfg(DNSCfg):
         finally:
             dnsfile.close()
             backupfile.close()
+
 def printinfo():
     print 'None'

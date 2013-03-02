@@ -26,6 +26,7 @@ import threading
 import SocketServer
 import traceback
 import random
+from signal import SIGTERM, SIGQUIT,SIGINT,SIGKILL
 
 from const import *
 from server._base import *
@@ -40,6 +41,7 @@ class RequestHandlerToTCP(ThreadedDNSRequestHandler):
     '''
     def queryremote(self, server, port, querydata):
         # RFC1035 section-4.2.2
+        print "qurey! server: ", server
         Buflen = struct.pack('!h', len(querydata))
         sendbuf = Buflen + querydata
         s = None
@@ -98,6 +100,7 @@ class TCPDNS(Daemon):
         print '>> Init finished!'
         self.server = ThreadedUDPServer(('127.0.0.1', 53), RequestHandlerToTCP)
         self.server_thread = threading.Thread(target = self.serve_forever)
+        self.server_thread.daemon = True
         self.server_thread.start()
         while self.run:
             time.sleep(1)

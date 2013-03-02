@@ -127,7 +127,7 @@ class Daemon:
             while True:
                 os.kill(pid, SIGQUIT)
                 sys.stdout.write('Stop Success\n')
-                time.sleep(0.1)
+                time.sleep(1)
         except OSError, err:
             err = str(err)
             if err.find("No such process") > 0:
