@@ -15,7 +15,7 @@
 #  198.153.192.1  Norton
 #  198.153.194.1  Norton
 '''
-Last updated: 2013-3-1
+Last updated: 2013-3-3
 By: Ming
 Email: mjzshd@gmail.com
 '''
@@ -41,7 +41,6 @@ class RequestHandlerToTCP(ThreadedDNSRequestHandler):
     '''
     def queryremote(self, server, port, querydata):
         # RFC1035 section-4.2.2
-        print "qurey! server: ", server
         Buflen = struct.pack('!h', len(querydata))
         sendbuf = Buflen + querydata
         s = None
@@ -53,10 +52,11 @@ class RequestHandlerToTCP(ThreadedDNSRequestHandler):
             data = s.recv(2048)
         except:
             print traceback.print_exc(sys.stdout)
+            print "Trouble happened when using dns server: ", server
             if s: s.close()
             return
         if s: s.close()
-        return data
+        return data[2:]
 
 
 class TCPDNS(Daemon):
@@ -67,15 +67,6 @@ class TCPDNS(Daemon):
     def __init__(self, cfg):
         Daemon.__init__(self, '/tmp/test.pid', '/dev/null', 'stdout.log', 'stderr.log')
         self.dnscfg = cfg
-        
-    def serve_forever(self):
-        while not self.stopped.is_set():
-            try:
-                self.server.handle_request()
-            except:
-			    pass
-        self.server.socket.close()
-        #self._Thread__stop()
 
     def force_close(self):
         self.stopped.set()
@@ -90,20 +81,23 @@ class TCPDNS(Daemon):
 	
     def run(self):
         self.run = True
+        '''
         signal.signal(signal.SIGQUIT, self.terminate)
         #signal.signal(signal.SIGKILL, self.terminate)
         signal.signal(signal.SIGINT, self.terminate)
         signal.signal(signal.SIGTERM, self.terminate)
+        '''
         self.dnscfg.backup()
         self.dnscfg.modify('127.0.0.1')
         print '>> Please wait program init....'
         print '>> Init finished!'
         self.server = ThreadedUDPServer(('127.0.0.1', 53), RequestHandlerToTCP)
-        self.server_thread = threading.Thread(target = self.serve_forever)
+        self.server_thread = threading.Thread(target = self.server.serve_forever)
         self.server_thread.daemon = True
         self.server_thread.start()
         while self.run:
             time.sleep(1)
+        self.server.shutdown()
         print '>> close server ,success'
 
     def terminate(self, signal, param):

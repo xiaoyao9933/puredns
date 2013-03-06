@@ -42,6 +42,15 @@ def bytetodomain(s):
   
     return domain
 
+def domainlength(s):
+    tmp = struct.unpack('!B', s[0:1])[0]
+    length = 0
+    while tmp != 0:
+        length = length + 1 + tmp
+        tmp = struct.unpack('!B', s[length:length+1])[0]
+    return length + 1
+        
+
 def resolve_request(querydata):
     domain = bytetodomain(querydata[12:-4])
     qtype = struct.unpack('!h', querydata[-4:-2])[0]
@@ -49,8 +58,7 @@ def resolve_request(querydata):
 
 
 class ThreadedUDPServer(SocketServer.ThreadingMixIn, SocketServer.UDPServer):
-    def __init__(self, s, t):
-        SocketServer.UDPServer.__init__(self, s, t)
+    pass
 
 
 class ThreadedDNSRequestHandler(SocketServer.BaseRequestHandler):
@@ -75,7 +83,7 @@ class ThreadedDNSRequestHandler(SocketServer.BaseRequestHandler):
         response = self.queryremote(DHOST, DPORT, querydata)
         if response:
             # udp dns packet no length
-            server.sendto(response[2:], addr)
+            server.sendto(response, addr)
 
     def handle(self):
         data = self.request[0]

@@ -5,6 +5,7 @@
 # Date    : 2013-02-15
 # Vesion  : 1.0
 '''
+Name was changed to: daemon.py
 Last updated: 2013-02-28
 Updated by  : Ming
 '''
@@ -19,7 +20,7 @@ class Daemon:
     
     Usage: subclass the Daemon class and override the run() method
     """
-    def __init__(self, pidfile, stdin = '/dev/null', stdout = '/dev/null', stderr = '/dev/null'):
+    def __init__(self, pidfile = '/tmp/test.pid', stdin = '/dev/null', stdout = '/dev/null', stderr = '/dev/null'):
         self.stdin = stdin
         self.stdout = stdout
         self.stderr = stderr
@@ -104,6 +105,10 @@ class Daemon:
         # Start the daemon
         sys.stdout.write('Start Success\n')
         self.daemonize()
+        signal.signal(signal.SIGQUIT, self.terminate)
+        #signal.signal(signal.SIGKILL, self.terminate)
+        signal.signal(signal.SIGINT, self.terminate)
+        signal.signal(signal.SIGTERM, self.terminate)
         self.run()
 
     def stop(self):

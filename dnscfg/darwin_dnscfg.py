@@ -36,6 +36,13 @@ class DarwinDNSCfg(LinuxDNSCfg):
         services = self.getallnetworkservices()
         for service in services:
             self.setdnsservers(service, [dns])
+        '''
+        try:
+            subprocess.check_output(["killall", "-HUP", "mDNSResponder"])
+        except:
+            pass
+        '''
+        print ">> Darwin modified"
 
     def restore(self):
         LinuxDNSCfg.restore(self)
@@ -51,6 +58,7 @@ class DarwinDNSCfg(LinuxDNSCfg):
             if backupfile:
                 backupfile.close()
                 os.remove(backupfilelocation)
+        print ">> Darwin restored"
 
     def printinfo(self):
         pass
