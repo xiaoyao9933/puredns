@@ -27,8 +27,11 @@ def create_dnscfg():
         from dnscfg.linux_dnscfg import LinuxDNSCfg
         return LinuxDNSCfg()
     elif s == "Windows":
-        from dnscfg.windows_dnscfg import WindowsDNSCfg
-        return WindowsDNSCfg()
+        try:
+            from dnscfg.windows_dnscfg import WindowsDNSCfg
+            return WindowsDNSCfg()
+        except:
+            from dnscfg.windows_netsh_dnscfg import WindowsNetshDNSCfg
     else:
         print "Unsuppoerted os"
         

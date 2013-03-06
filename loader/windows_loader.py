@@ -1,4 +1,4 @@
-#! /usr/bin/python
+﻿#! /usr/bin/python
 # -*- coding: utf-8 -*-
 # FileName: PureDNS.py
 # Author  : xiaoyao9933
@@ -101,7 +101,7 @@ class Frame(wx.Frame):
 
         
 class App(wx.App):
-    def __init__(self, logfile,notadmin,redirect=False, filename=None, cfg):
+    def __init__(self, logfile,notadmin,redirect=False, filename=None, cfg=None):
         wx.App.__init__(self, redirect, filename)
         self.logfile=logfile
         self.notadmin = notadmin
