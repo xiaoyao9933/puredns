@@ -1,6 +1,6 @@
 '''
 This module is still under development
-Last updated: 2013-3-3
+Last updated: 2013-3-6
 By: Ming
 Email: mjzshd@gmail.com
 '''
