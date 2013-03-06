@@ -13,7 +13,7 @@ class WindowsDNSCfg:
 	def __init__(self):
 		self.wmiService = wmi.WMI()
 		self.netCfgBackup={}
-		self.notadmin = self.GetDNSBackup()
+		self.notadmin = self.backup()
 	#----------------------------------------------------------------------
 	# Get the Adapter who has mac from wmi 
 	#----------------------------------------------------------------------
@@ -42,7 +42,7 @@ class WindowsDNSCfg:
 				except:
 					pass
 		if flag:
-			self.RestoreDns()
+			self.restore()
 		return False
 	#----------------------------------------------------------------------
 	# Modify DNS

@@ -26,8 +26,7 @@ import threading
 import SocketServer
 import traceback
 import random
-from signal import SIGTERM, SIGQUIT,SIGINT,SIGKILL
-
+import platform
 from const import *
 from server._base import *
 from daemon import *
@@ -61,17 +60,19 @@ class RequestHandlerToTCP(ThreadedDNSRequestHandler):
 
 class TCPDNS(Daemon):
 
-    stopped = threading.Event()
     server = None
 
     def __init__(self, cfg):
-        Daemon.__init__(self, '/tmp/test.pid', '/dev/null', 'stdout.log', 'stderr.log')
+        if platform.system() !='Windows':  
+            Daemon.__init__(self, '/tmp/test.pid', '/dev/null', 'stdout.log', 'stderr.log')
         self.dnscfg = cfg
 
     def force_close(self):
-        self.stopped.set()
+        self.run = False
         #FIXME: What the dummy request for?
         self.create_dummy_request()
+        if platform.system() =='Windows': 
+            self.server.shutdown()
         
     def create_dummy_request(self):
         address = ('127.0.0.1', 53)
@@ -93,12 +94,16 @@ class TCPDNS(Daemon):
         print '>> Init finished!'
         self.server = ThreadedUDPServer(('127.0.0.1', 53), RequestHandlerToTCP)
         self.server_thread = threading.Thread(target = self.server.serve_forever)
-        self.server_thread.daemon = True
+        #self.server_thread.daemon = True
         self.server_thread.start()
-        while self.run:
-            time.sleep(1)
-        self.server.shutdown()
-        print '>> close server ,success'
+        print 'here'
+        print platform.system()
+        if platform.system() !='Windows': 
+            while self.run:
+                time.sleep(1)
+            self.server.shutdown()
+            print '>> close server ,success'
+        
 
     def terminate(self, signal, param):
         self.run = False

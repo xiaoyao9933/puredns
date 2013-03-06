@@ -31,7 +31,9 @@ def create_dnscfg():
             from dnscfg.windows_dnscfg import WindowsDNSCfg
             return WindowsDNSCfg()
         except:
+            print 'wmi method not working try netsh'
             from dnscfg.windows_netsh_dnscfg import WindowsNetshDNSCfg
+            return WindowsNetshDNSCfg()
     else:
         print "Unsuppoerted os"
         
