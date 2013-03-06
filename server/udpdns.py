@@ -56,7 +56,6 @@ class RequestHandlerToUDP(ThreadedDNSRequestHandler):
             # Move forward anchor
             anchor += 10
             addr = '.'.join(str(j) for j in struct.unpack("!BBBB", data[anchor : anchor + 4]))
-            print "[", addr, "]"
             if addr in fakeip: # Core!!
                 return False
             anchor += 4
