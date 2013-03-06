@@ -1,0 +1,95 @@
+import os, sys
+import socket
+import struct
+import threading
+import SocketServer
+import traceback
+import random
+
+from const import *
+
+#-------------------------------------------------------------
+# Hexdump Cool :)
+# default width 16
+#--------------------------------------------------------------
+def hexdump( src, width=16 ):
+    FILTER=''.join([(len(repr(chr(x)))==3) and chr(x) or '.' for x in range(256)])
+    result=[]
+    for i in xrange(0, len(src), width):
+        s = src[i:i+width]
+        hexa = ' '.join(["%02X"%ord(x) for x in s])
+        printable = s.translate(FILTER)
+        result.append("%04X   %s   %s\n" % (i, hexa, printable))
+    return ''.join(result)
+
+
+#---------------------------------------------------------------
+# bytetodomain
+# 03www06google02cn00 => www.google.cn
+#--------------------------------------------------------------
+def bytetodomain(s):
+    domain = ''
+    i = 0
+    length = struct.unpack('!B', s[0:1])[0]
+  
+    while length != 0 :
+        i += 1
+        domain += s[i:i+length]
+        i += length
+        length = struct.unpack('!B', s[i:i+1])[0]
+        if length != 0 :
+            domain += '.'
+  
+    return domain
+
+def domainlength(s):
+    tmp = struct.unpack('!B', s[0:1])[0]
+    length = 0
+    while tmp != 0:
+        length = length + 1 + tmp
+        tmp = struct.unpack('!B', s[length:length+1])[0]
+    return length + 1
+        
+
+def resolve_request(querydata):
+    domain = bytetodomain(querydata[12:-4])
+    qtype = struct.unpack('!h', querydata[-4:-2])[0]
+    return (domain, qtype)
+
+
+class ThreadedUDPServer(SocketServer.ThreadingMixIn, SocketServer.UDPServer):
+    pass
+
+
+class ThreadedDNSRequestHandler(SocketServer.BaseRequestHandler):
+    # Ctrl-C will cleanly kill all spawned threads
+    daemon_threads = True
+    # much faster rebinding
+    allow_reuse_address = True
+
+    #-----------------------------------------------------
+    # send udp dns respones back to client program
+    #----------------------------------------------------
+    def transfer(self, querydata, addr, server):
+        if not querydata: return
+        (domain, qtype) = resolve_request(querydata)
+        """
+        print 'domain:%s, qtype:%x, thread:%d' % \
+             (domain, qtype, threading.activeCount())
+        """
+        sys.stdout.flush()
+        choose = random.sample(xrange(len(DHOSTS)), 1)[0]
+        DHOST = DHOSTS[choose]
+        response = self.queryremote(DHOST, DPORT, querydata)
+        if response:
+            # udp dns packet no length
+            server.sendto(response, addr)
+
+    def handle(self):
+        data = self.request[0]
+        socket = self.request[1]
+        addr = self.client_address
+        try:
+            self.transfer(data, addr, socket)
+        except:
+            pass

@@ -9,7 +9,7 @@ import _winreg
 import os
 from ctypes import *
 
-class DNSCfg:
+class WindowsDNSCfg:
 	def __init__(self):
 		self.wmiService = wmi.WMI()
 		self.netCfgBackup={}
@@ -17,7 +17,7 @@ class DNSCfg:
 	#----------------------------------------------------------------------
 	# Get the Adapter who has mac from wmi 
 	#----------------------------------------------------------------------
-	def GetDNSBackup(self):
+	def backup(self):
 		flag = False
 		try:
 			hkey = _winreg.OpenKey(_winreg.HKEY_LOCAL_MACHINE,r'System\\CurrentControlSet\\Services\\Tcpip\\Parameters\\Interfaces\\',0,_winreg.KEY_ALL_ACCESS)
@@ -47,7 +47,7 @@ class DNSCfg:
 	#----------------------------------------------------------------------
 	# Modify DNS
 	#----------------------------------------------------------------------
-	def ModifyDns(self,dns):
+	def modify(self,dns):
 		for id in self.netCfgBackup:
 			self.RegModifyDns(id,dns)
 		self.colNicConfigs = self.wmiService.Win32_NetworkAdapterConfiguration(IPEnabled = True)
@@ -58,7 +58,7 @@ class DNSCfg:
 	#----------------------------------------------------------------------
 	# Restore DNS
 	#----------------------------------------------------------------------
-	def RestoreDns(self):
+	def restore(self):
 		flag = True
 		for id in self.netCfgBackup:
 			self.RegModifyDns(id,self.netCfgBackup[id])
@@ -104,7 +104,7 @@ class DNSCfg:
 	
 		#pass
 		
-def PrintInfo():
+def printinfo():
 	print 'version 1.2 modified'
 	print 'Registry Info:'
 	hkey = _winreg.OpenKey(_winreg.HKEY_LOCAL_MACHINE,r'System\\CurrentControlSet\\Services\\Tcpip\\Parameters\\Interfaces\\')

@@ -4,10 +4,13 @@
 # Email   : me@chao.lu
 # Date    : 2013-02-15
 # Vesion  : 1.0
+'''
+Name was changed to: daemon.py
+Last updated: 2013-02-28
+Updated by  : Ming
+'''
 import sys, os, time, atexit, signal
-import DNSCfg_Linux as DNSCfg
 import threading
-import tcpdns
 from subprocess import Popen
 from signal import SIGTERM, SIGQUIT,SIGINT,SIGKILL
 
@@ -17,7 +20,7 @@ class Daemon:
     
     Usage: subclass the Daemon class and override the run() method
     """
-    def __init__(self, pidfile, stdin = '/dev/null', stdout = '/dev/null', stderr = '/dev/null'):
+    def __init__(self, pidfile = '/tmp/test.pid', stdin = '/dev/null', stdout = '/dev/null', stderr = '/dev/null'):
         self.stdin = stdin
         self.stdout = stdout
         self.stderr = stderr
@@ -70,6 +73,7 @@ class Daemon:
 
     def delpid(self):
         os.remove(self.pidfile)
+
     def getstate(self):
         try:
             pf = file(self.pidfile, 'r')
@@ -101,6 +105,10 @@ class Daemon:
         # Start the daemon
         sys.stdout.write('Start Success\n')
         self.daemonize()
+        signal.signal(signal.SIGQUIT, self.terminate)
+        #signal.signal(signal.SIGKILL, self.terminate)
+        signal.signal(signal.SIGINT, self.terminate)
+        signal.signal(signal.SIGTERM, self.terminate)
         self.run()
 
     def stop(self):
@@ -124,7 +132,7 @@ class Daemon:
             while True:
                 os.kill(pid, SIGQUIT)
                 sys.stdout.write('Stop Success\n')
-                time.sleep(0.1)
+                time.sleep(1)
         except OSError, err:
             err = str(err)
             if err.find("No such process") > 0:
@@ -133,12 +141,15 @@ class Daemon:
             else:
                 print str(err)
                 sys.exit(1)
+                
     def restart(self):
         """
         Restart the daemon
         """
         self.stop()
         self.start()
+
+    '''
     def run(self):
         self.run = True
         signal.signal(signal.SIGQUIT, self.terminate)
@@ -156,4 +167,4 @@ class Daemon:
         self.tcpdns.force_close()
         self.dnscfg.RestoreDns()
         os._exit(0)
-
+    '''

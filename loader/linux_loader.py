@@ -1,34 +1,35 @@
-#! /usr/bin/python
-# -*- coding: utf-8 -*-
-# FileName: PureDNS.py
-# Author  : xiaoyao9933
-# Email   : me@chao.lu
-# Date    : 2013-02-15
-# Vesion  : 1.0
-#!/usr/bin/env python  
 import sys,os
-from PureDNSDeamon import Daemon
 from subprocess import Popen
-           # time.sleep(1)
-if __name__ == "__main__":
+from server.tcpdns import TCPDNS
+from server.udpdns import UDPDNS
+from daemon import Daemon
+
+def load(cfg):
     if os.geteuid() !=0:
         print '>> Please run this service as root.'
         os._exit(1)
-    daemon = Daemon('/tmp/test.pid', '/dev/null', 'stdout.log', 'stderr.log')
     if len(sys.argv) == 2:
         if 'start' == sys.argv[1]:
-            daemon.start()
+            dns = TCPDNS(cfg) 
+            dns.start()
         elif 'stop' == sys.argv[1]:
-            daemon.stop()
+            dns = Daemon()
+            dns.stop()
         elif 'restart' == sys.argv[1]:
-            daemon.restart()
+            dns = TCPDNS(cfg) 
+            dns.restart()
+        elif 'censor' == sys.argv[1]:
+            dns = UDPDNS(cfg)
+            dns.start()
         else:
             print "Unknown command"
             sys.exit(2)
         sys.exit(0)
     else:
-        tmp = daemon.getstate()
+        dns = Daemon()
+        tmp = dns.getstate()
         print "usage: %s start|stop|restart" % sys.argv[0]
+        print "special usage: %s double-recv" % sys.argv[0]
         print '-------------------------------------'
         if tmp:
             print 'The daemon is running'
