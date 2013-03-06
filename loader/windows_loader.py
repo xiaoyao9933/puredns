@@ -1,15 +1,15 @@
+﻿# -*- coding: utf-8 -*-
 #! /usr/bin/python
-# -*- coding: utf-8 -*-
 # FileName: PureDNS.py
 # Author  : xiaoyao9933
 # Email   : me@chao.lu
-# Date    : 2013-02-14
-# Vesion  : 1.2
+# Date    : 2013-03-06
+# Vesion  : 1.3
 import wx
 import webbrowser
 import time
-import tcpdns
 import _winreg
+from server.tcpdns import TCPDNS
 import os,sys,traceback 
 import signal 
 ########################################################################
@@ -18,15 +18,15 @@ class Icon(wx.TaskBarIcon):
     TBMENU_CLOSE   = wx.NewId()
     TBMENU_ABOUT  = wx.NewId()
     state=False
-    version = '1.2'
+    version = '1.3'
     #----------------------------------------------------------------------
     def __init__(self,serv,dnscfg):
         wx.TaskBarIcon.__init__(self)
         self.menu = wx.Menu()
-        self.menu.Append(self.TBMENU_SERVICE, "¿ØÖÆ´úÀí")
-        self.menu.Append(self.TBMENU_ABOUT, "°ïÖú PureDNS" + self.version)
+        self.menu.Append(self.TBMENU_SERVICE, "NULL")
+        self.menu.Append(self.TBMENU_ABOUT, u"关于 PureDNS" + self.version)
         self.menu.AppendSeparator()
-        self.menu.Append(self.TBMENU_CLOSE,   "ÍË³ö")
+        self.menu.Append(self.TBMENU_CLOSE, u"退出程序")
 		# Set the image
         self.tbIcon = wx.EmptyIcon()
         self.tbIcon.LoadFile(resource_path("PureDNS.ico"),wx.BITMAP_TYPE_ICO) 
@@ -38,29 +38,31 @@ class Icon(wx.TaskBarIcon):
         self.Bind(wx.EVT_CLOSE, self.OnClose)
         self.Bind(wx.EVT_TASKBAR_LEFT_DOWN, self.OnTaskBarClick)
         self.Bind(wx.EVT_TASKBAR_RIGHT_DOWN, self.OnTaskBarClick)
-        self.serv = serv 
-        self.serv.start()
+        self.serv = serv
+        print 'there1'
+        self.serv.run()
         self.dnscfg = dnscfg
         time.sleep(1)
+        print 'there'
         if self.serv.server:
             self.state = True
             self.dnscfg.modify('127.0.0.1')
-            self.menu.SetLabel(self.TBMENU_SERVICE,'Í£Ö¹DNS´úÀí')
+            self.menu.SetLabel(self.TBMENU_SERVICE,u'停用DNS代理')
         else:
             self.state = False
-            wx.MessageDialog(None,'ÒÑ¾­ÓÐÆäËû½ø³ÌÕ¼ÓÃ53¶Ë¿Ú','´íÎó',wx.OK).ShowModal()
-            self.menu.SetLabel(self.TBMENU_SERVICE,'Æô¶¯DNS´úÀí') 
+            wx.MessageDialog(None,u'端口号53已经被占用',u'错误',wx.OK).ShowModal()
+            self.menu.SetLabel(self.TBMENU_SERVICE,u'启动DNS代理') 
 
     #----------------------------------------------------------------------
     def OnTaskBarSevice(self,evt):
         if self.state is False:
             self.dnscfg.modify('127.0.0.1')
             self.state=True
-            self.menu.SetLabel(self.TBMENU_SERVICE,'Í£Ö¹DNS´úÀí')
+            self.menu.SetLabel(self.TBMENU_SERVICE,u'停用DNS代理')
         else:
-            self.dnscfg.modify()
+            self.dnscfg.restore()
             self.state=False
-            self.menu.SetLabel(self.TBMENU_SERVICE,'Æô¶¯DNS´úÀí')         
+            self.menu.SetLabel(self.TBMENU_SERVICE,u'启动DNS代理')         
  
     #----------------------------------------------------------------------
     def OnTaskBarActivateD(self, evt):
@@ -101,20 +103,20 @@ class Frame(wx.Frame):
 
         
 class App(wx.App):
-    def __init__(self, logfile,notadmin,redirect=False, filename=None, cfg):
-        wx.App.__init__(self, redirect, filename)
+    def __init__(self, logfile,notadmin,cfg,redirect=False, filename=None):
         self.logfile=logfile
         self.notadmin = notadmin
         self.hdnscfg = cfg
+        wx.App.__init__(self, redirect, filename)
 
     def OnInit(self):
-        if notadmin:
-            wx.MessageDialog(None,'ÇëÒÔ¹ÜÀíÔ±È¨ÏÞÖ´ÐÐ±¾³ÌÐò','´íÎó',wx.OK).ShowModal()
+        if False:
+            wx.MessageDialog(None,u'请以管理员权限运行本程序',u'错误',wx.OK).ShowModal()
             self.ExitMainLoop()
             return True
-        self.htcpdns = tcpdns.tcpdns()
+        self.htcpdns = TCPDNS(self.hdnscfg)
         if self.hdnscfg.notadmin:
-            wx.MessageDialog(None,'ÇëÒÔ¹ÜÀíÔ±È¨ÏÞÖ´ÐÐ±¾³ÌÐò','´íÎó',wx.OK).ShowModal()
+            wx.MessageDialog(None,u'请以管理员权限运行本程序',u'错误',wx.OK).ShowModal()
             self.htcpdns.force_close()
             self.ExitMainLoop()
             return True
@@ -169,7 +171,7 @@ def load(cfg):
             traceback.print_exc()
             #DNSCfg.PrintInfo()
             logfile.flush()
-            wx.MessageDialog(None,'·¢ÉúÖÂÃü´íÎó£¬Çë½«ÓëÈí¼þÍ¬Ä¿Â¼ÏÂµÄ log.txt ·¢µ½ puredns@chao.lu,Ð­ÖúÎÒÍêÉÆ³ÌÐò£¬¶àÐ»!','´íÎó',wx.OK).ShowModal()
+            wx.MessageDialog(None,u'遇到致命错误，请将同目录下的log.txt发送到puredns@chao.lu,多谢!',u'错误',wx.OK).ShowModal()
             
     finally:
         sys.stdout = logfile

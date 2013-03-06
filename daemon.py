@@ -12,8 +12,10 @@ Updated by  : Ming
 import sys, os, time, atexit, signal
 import threading
 from subprocess import Popen
-from signal import SIGTERM, SIGQUIT,SIGINT,SIGKILL
-
+try:
+    from signal import SIGTERM, SIGQUIT,SIGINT,SIGKILL
+except:
+    pass
 class Daemon:
     """
     A generic daemon class.
