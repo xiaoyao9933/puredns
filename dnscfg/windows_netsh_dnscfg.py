@@ -34,6 +34,7 @@ class WindowsNetshDNSCfg(DNSCfg):
         except:
             print 'failed to backup'
             return False
+            
     def modify(self, dns):
         cmd = ['pushd interface ip']
         for interface in self.interfaces():
