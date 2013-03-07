@@ -11,10 +11,25 @@ import re
 ########################################################################
 class WindowsNetshDNSCfg(DNSCfg):
     def __init__(self):
-        self.notadmin = not self.backup()
+        self.backupfile = os.path.expanduser('~') + os.path.sep + 'puredns_backup.log'
         self.backup_data = {}
+        self.notadmin = not self.backup()
         
     def backup(self):
+        backup_file = None
+        # check for previous saved backup
+        try:
+            backup_file = open(self.backupfile, 'r')
+            print '>> Not normally closed last time, will set dns to backup.'
+            self.backup_data = eval(backup_file.read())
+            return True
+        except:
+            pass
+        finally:
+            if backup_file != None:
+                backup_file.close()
+                backup_file = None
+        # get the current primary dns settings fro all connected interfaces and make backup
         try:
             raw_result = subprocess.check_output('netsh interface ip show dns')
             ip = re.compile(r'\d+\.\d+\.\d+\.\d+')
@@ -30,14 +45,20 @@ class WindowsNetshDNSCfg(DNSCfg):
                     if match != None:
                         result[interface] = match.group()
             self.backup_data = result
+            backup_file = open(self.backupfile, 'w')
+            backup_data_json = repr(self.backup_data)
+            backup_file.write(backup_data_json)
             return True
         except:
             print 'failed to backup'
             return False
+        finally:
+            if backup_file != None:
+                backup_file.close()
 
     def modify(self, dns):
         cmd = ['pushd interface ip']
-        for interface in self.interfaces():
+        for interface in self.backup_data.keys():
             cmd.append('set dns "' + interface + '" source=static addr=' + dns + ' register=PRIMARY')
         cmd.append('popd\n')
         process = subprocess.Popen('netsh', stdin=subprocess.PIPE, stdout=subprocess.PIPE)
@@ -53,7 +74,11 @@ class WindowsNetshDNSCfg(DNSCfg):
         cmd.append('popd\n')
         process = subprocess.Popen('netsh', stdin=subprocess.PIPE, stdout=subprocess.PIPE)
         process.communicate('\n'.join(cmd))
-        
+        try:
+            os.unlink(self.backupfile)
+        except:
+            pass    # just ignore if the backup file doesn't exist
+
     def interfaces(self):
         raw_result = subprocess.check_output('netsh interface ip show interfaces')
         result = []
@@ -64,6 +89,6 @@ class WindowsNetshDNSCfg(DNSCfg):
                 item = line[pos + len(token):].strip()
                 result.append(item)
         return result
-        
+
 def printinfo():
     print 'None'

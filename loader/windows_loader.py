@@ -27,7 +27,7 @@ class Icon(wx.TaskBarIcon):
         self.menu.Append(self.TBMENU_ABOUT, u"关于 PureDNS" + self.version)
         self.menu.AppendSeparator()
         self.menu.Append(self.TBMENU_CLOSE, u"退出程序")
-		# Set the image
+        # Set the image
         self.tbIcon = wx.EmptyIcon()
         self.tbIcon.LoadFile(resource_path("PureDNS.ico"),wx.BITMAP_TYPE_ICO) 
         self.SetIcon(self.tbIcon, "PureDNS")
