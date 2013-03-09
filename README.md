@@ -60,6 +60,7 @@
 * 最新Linux/Mac版[下载](https://sourceforge.net/projects/puredns/files/PureDNS.tar.gz/download)
 
 ## Update Logs：
+*   1.4 : 感谢在davidaq的帮助下，增加了对win64环境的支持。
 *   1.3 : 感谢在mjzshd(mjzshd@gmail.com)的帮助下，重构了我的代码，改正了代码很多的Bugs，增加了MAC版本，添加了两次接收UDP的censor法，让本渣学到了很多新知识。
 *   1.2 : 不改版本号了，增加了非管理员权限执行时的提示信息。
 *   1.2 : 修复了没关闭软件时，直接关闭系统导致dns设置不能还原的BUG。增加了异常退出的自动修复机制。

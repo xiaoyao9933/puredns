@@ -3,8 +3,8 @@
 # FileName: PureDNS.py
 # Author  : xiaoyao9933
 # Email   : me@chao.lu
-# Date    : 2013-03-06
-# Vesion  : 1.3
+# Date    : 2013-03-09
+# Vesion  : 1.4
 import wx
 import webbrowser
 import time
@@ -18,7 +18,7 @@ class Icon(wx.TaskBarIcon):
     TBMENU_CLOSE   = wx.NewId()
     TBMENU_ABOUT  = wx.NewId()
     state=False
-    version = '1.3'
+    version = '1.4'
     #----------------------------------------------------------------------
     def __init__(self,serv,dnscfg):
         wx.TaskBarIcon.__init__(self)
@@ -89,7 +89,7 @@ class Icon(wx.TaskBarIcon):
         """
         Create the about dialog
         """
-        webbrowser.open('https://github.com/xiaoyao9933/puredns/wiki/%E6%AC%A2%E8%BF%8E%E4%BD%BF%E7%94%A8PureDNS')
+        webbrowser.open('http://xiaoyao9933.github.com/puredns/')
 class Frame(wx.Frame):
     def __init__(self, *args, **kwargs): 
         super(Frame, self).__init__(*args, **kwargs) 
@@ -158,7 +158,7 @@ def load(cfg):
             notadmin=True
         firstrun = True
     if firstrun:
-        webbrowser.open('https://github.com/xiaoyao9933/puredns/wiki/%E6%AC%A2%E8%BF%8E%E4%BD%BF%E7%94%A8PureDNS')
+        webbrowser.open('http://xiaoyao9933.github.com/puredns/')
     try:
         logfile=open('log.txt','w')
         sys.stdout = logfile
