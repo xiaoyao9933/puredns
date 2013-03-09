@@ -1,0 +1,4110 @@
+there1
+>> Not normally closed last time, will set dns to backup.
+>> Please wait program init....
+>> Init finished!
+here
+Windows
+there
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 51, in queryremote
+    data = s.recv(2048)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    s.connect((server, int(port)))
+    return getattr(self._sock,name)(*args)
+  File "C:\Python27\lib\socket.py", line 224, in meth
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+NoneNone
+
+Trouble happened when using dns server: Trouble happened when using dns server:   8.8.4.48.8.8.8
+
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1    return getattr(self._sock,name)(*args)
+    return getattr(self._sock,name)(*args)
+
+timeout: timed out
+timeout: timed out
+NoneNone
+
+Trouble happened when using dns server: Trouble happened when using dns server:   8.8.8.8156.154.70.1
+
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None    return getattr(self._sock,name)(*args)
+
+Trouble happened when using dns server: timeout: timed out
+ None8.8.8.8
+
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    s.connect((server, int(port)))
+    return getattr(self._sock,name)(*args)
+  File "C:\Python27\lib\socket.py", line 224, in meth
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None    return getattr(self._sock,name)(*args)
+
+Trouble happened when using dns server: timeout: timed out
+ None156.154.70.1
+
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None    return getattr(self._sock,name)(*args)
+
+timeout: timed out
+Trouble happened when using dns server: None 
+8.8.4.4Trouble happened when using dns server:  
+156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:      return getattr(self._sock,name)(*args)
+8.8.8.8timeout: timed out
+
+ None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None    return getattr(self._sock,name)(*args)
+
+Trouble happened when using dns server: timeout: timed out
+ None8.8.4.4
+
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+    return getattr(self._sock,name)(*args)
+Nonetimeout: timed out
+
+ Trouble happened when using dns server: None 
+8.8.8.8Trouble happened when using dns server: 
+ 8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+    return getattr(self._sock,name)(*args)
+Trouble happened when using dns server: timeout: timed out
+ None156.154.71.1
+
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+    return getattr(self._sock,name)(*args)
+Trouble happened when using dns server: timeout: timed out
+ None8.8.4.4
+Trouble happened when using dns server:  8.8.4.4
+
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    s.connect((server, int(port)))
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+    return getattr(self._sock,name)(*args)
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+timeout: timed out
+NoneNonetimeout: timed out
+
+
+ Trouble happened when using dns server: Trouble happened when using dns server: None  
+8.8.4.48.8.8.8Trouble happened when using dns server: 
+
+ 156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None    return getattr(self._sock,name)(*args)
+
+timeout: timed out
+Trouble happened when using dns server: None 8.8.8.8
+
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+    return getattr(self._sock,name)(*args)
+Trouble happened when using dns server: timeout: timed out
+ None156.154.70.1
+
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+    return getattr(self._sock,name)(*args)
+Nonetimeout: timed out
+
+    return getattr(self._sock,name)(*args)
+NoneTrouble happened when using dns server: 
+ timeout: timed out
+Trouble happened when using dns server: 8.8.4.4None 
+
+8.8.4.4Trouble happened when using dns server: 
+ 8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None    return getattr(self._sock,name)(*args)
+
+timeout: timed out
+Trouble happened when using dns server: None 
+156.154.70.1Trouble happened when using dns server: 
+ 156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None    return getattr(self._sock,name)(*args)
+
+Trouble happened when using dns server:  8.8.4.4
+timeout: timed out
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+None    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    s.connect((server, int(port)))
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+    return getattr(self._sock,name)(*args)
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+timeout: timed out
+None
+ Trouble happened when using dns server: None 
+156.154.70.1Trouble happened when using dns server: 
+ 8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    s.connect((server, int(port)))
+    return getattr(self._sock,name)(*args)
+  File "C:\Python27\lib\socket.py", line 224, in meth
+timeout: timed out
+    return getattr(self._sock,name)(*args)
+None
+timeout: timed out
+Trouble happened when using dns server: None 
+156.154.70.1Trouble happened when using dns server: 
+ 8.8.4.4Traceback (most recent call last):
+
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+    return getattr(self._sock,name)(*args)
+Nonetimeout: timed out
+
+Trouble happened when using dns server: None 
+8.8.4.4Trouble happened when using dns server: 
+ 156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    s.connect((server, int(port)))
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+  File "C:\Python27\lib\socket.py", line 224, in meth
+None
+Trouble happened when using dns server:  8.8.4.4
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+    return getattr(self._sock,name)(*args)
+Trouble happened when using dns server: timeout: timed out
+ None8.8.4.4
+
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+Nonetimeout: timed out
+
+ Trouble happened when using dns server: None 
+8.8.8.8Trouble happened when using dns server: 
+ 156.154.71.1Traceback (most recent call last):
+
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    s.connect((server, int(port)))
+    return getattr(self._sock,name)(*args)
+  File "C:\Python27\lib\socket.py", line 224, in meth
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    s.connect((server, int(port)))
+    return getattr(self._sock,name)(*args)
+  File "C:\Python27\lib\socket.py", line 224, in meth
+timeout: timed out
+    return getattr(self._sock,name)(*args)
+None
+timeout: timed out
+Trouble happened when using dns server: None 
+8.8.8.8Trouble happened when using dns server:  156.154.71.1
+
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+    return getattr(self._sock,name)(*args)
+Nonetimeout: timed out
+
+Trouble happened when using dns server: None 
+8.8.4.4Trouble happened when using dns server: 
+ 156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None    return getattr(self._sock,name)(*args)
+
+timeout: timed out
+Trouble happened when using dns server: None 
+156.154.70.1Trouble happened when using dns server: 
+ 8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+    return getattr(self._sock,name)(*args)
+Trouble happened when using dns server: timeout: timed out
+ None156.154.71.1
+
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    s.connect((server, int(port)))
+    return getattr(self._sock,name)(*args)
+  File "C:\Python27\lib\socket.py", line 224, in meth
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+timeout: timed out
+NoneNone
+
+Trouble happened when using dns server: Trouble happened when using dns server:   8.8.4.48.8.4.4
+
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+    return getattr(self._sock,name)(*args)
+Nonetimeout: timed out
+ 
+NoneTrouble happened when using dns server: 
+ Trouble happened when using dns server: 156.154.71.1 
+156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.4.4
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.71.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  156.154.70.1
+Traceback (most recent call last):
+  File "C:\Users\DavidAQ\Documents\GitHub\puredns\server\tcpdns.py", line 49, in queryremote
+    s.connect((server, int(port)))
+  File "C:\Python27\lib\socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+timeout: timed out
+None
+Trouble happened when using dns server:  8.8.8.8
+>> OnClose()
+>> Send dummy
+>> OnExit()
+>> OnClose()
+>> Send dummy
+>> OnExit()
+>> Send dummy
+>> OnExit()
+>> Finally closed
